@@ -1,12 +1,12 @@
-export interface Movie  {
-        revenue(revenue: any): import("react").ReactNode;
-        budget(budget: any): import("react").ReactNode;
+export interface Movie {
         id: number;
         title: string;
         poster_path: string;
         vote_average: number;
-        tagline: number;
+        tagline: string;
         runtime: number;
-        overview: number;
-        revenuebudget: number;
-}
+        overview: string;
+        budget: number; 
+        revenue: number; 
+    }
+    
